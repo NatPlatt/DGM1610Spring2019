@@ -1,2 +1,5 @@
+got error "Failed to load assets/scenes/gamescene.unity because its serialized film version is higher than what this version of unity supports"
+and scene failed to load, but assets and other changes were still there
+
 American Fork, high of 43 degrees, low of 20 degrees and partly cloudy
 St. George, high of 64 degrees, low of 38 degrees and mostly cloudy
