@@ -1,3 +1,5 @@
+2/2/19 uploaded animal images, but didn't add them to unity project in case it would cause more conflict
+
 got error "Failed to load assets/scenes/gamescene.unity because its serialized film version is higher than what this version of unity supports"
 and scene failed to load, but assets and other changes were still there
 
