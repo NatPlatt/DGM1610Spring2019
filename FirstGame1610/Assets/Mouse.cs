@@ -2,14 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Animal : MonoBehaviour
+public class Mouse : Animal
 {
 
-	public string Name;
-
-	public Color SkinColor;
-
-	public int Legs;
+	public Color FurColor;
 	
 	// Use this for initialization
 	void Start () {

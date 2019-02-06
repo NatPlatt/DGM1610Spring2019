@@ -2,15 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Animal : MonoBehaviour
-{
+public class Cockroach : Animal {
 
-	public string Name;
-
-	public Color SkinColor;
-
-	public int Legs;
-	
 	// Use this for initialization
 	void Start () {
 		

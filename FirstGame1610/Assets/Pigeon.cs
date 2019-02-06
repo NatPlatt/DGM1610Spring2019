@@ -2,14 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Animal : MonoBehaviour
+public class Pigeon : Animal
 {
 
-	public string Name;
+	public Color FeatherColor;
 
-	public Color SkinColor;
-
-	public int Legs;
+	public int Wings;
+	
 	
 	// Use this for initialization
 	void Start () {
