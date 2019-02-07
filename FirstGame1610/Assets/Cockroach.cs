@@ -6,7 +6,7 @@ public class Cockroach : Animal {
 
 	// Use this for initialization
 	void Start () {
-		
+		print("I am a cockroach");
 	}
 	
 	// Update is called once per frame

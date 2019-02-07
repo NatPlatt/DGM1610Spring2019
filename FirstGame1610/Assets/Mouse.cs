@@ -9,7 +9,7 @@ public class Mouse : Animal
 	
 	// Use this for initialization
 	void Start () {
-		
+		print("I am a mouse");
 	}
 	
 	// Update is called once per frame

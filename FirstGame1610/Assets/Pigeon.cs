@@ -12,7 +12,7 @@ public class Pigeon : Animal
 	
 	// Use this for initialization
 	void Start () {
-		
+		print("I am a pigeon");
 	}
 	
 	// Update is called once per frame

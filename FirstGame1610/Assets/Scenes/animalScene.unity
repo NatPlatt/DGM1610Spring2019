@@ -355,7 +355,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: 
   SkinColor: {r: 0, g: 0, b: 0, a: 0}
-  Legs: 0
+  Legs: 6
 --- !u!212 &564361650
 SpriteRenderer:
   m_ObjectHideFlags: 0
