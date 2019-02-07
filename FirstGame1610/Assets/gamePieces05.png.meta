@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: 5885c35813423974984f4e080841bb4e
-=======
-guid: 22b595a4bea5b4546b2b0b17f73d1b53
->>>>>>> 718d0b92be54aecdece1b3ac27059b7188dfe32c
 TextureImporter:
   fileIDToRecycleName:
     21300000: frontLeg01
@@ -14,11 +10,7 @@ TextureImporter:
     21300010: backLeg02
     21300012: cockroach
   externalObjects: {}
-<<<<<<< HEAD
   serializedVersion: 5
-=======
-  serializedVersion: 7
->>>>>>> 718d0b92be54aecdece1b3ac27059b7188dfe32c
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -36,11 +28,6 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
-<<<<<<< HEAD
-=======
-  streamingMipmaps: 0
-  streamingMipmapsPriority: 0
->>>>>>> 718d0b92be54aecdece1b3ac27059b7188dfe32c
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -51,11 +38,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: -1
     aniso: -1
-<<<<<<< HEAD
     mipBias: -1
-=======
-    mipBias: -100
->>>>>>> 718d0b92be54aecdece1b3ac27059b7188dfe32c
     wrapU: 1
     wrapV: 1
     wrapW: -1
@@ -120,11 +103,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: 6a0d50dce19d4924fa21ee4ee3bc0aac
-=======
-      spriteID: 71428cc7dec8c884b88b9bf9f56c76d2
->>>>>>> 718d0b92be54aecdece1b3ac27059b7188dfe32c
+      spriteID: abdddff0f6057a747bf70f2b696e2e87
       vertices: []
       indices: 
       edges: []
@@ -144,11 +123,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: 2fb0f87ac1020b446b0a6a92c6c979b1
-=======
-      spriteID: f904c98aa228e1248a2110e3cd949ba9
->>>>>>> 718d0b92be54aecdece1b3ac27059b7188dfe32c
+      spriteID: 16e4f88b014ed544282468b6a11a3d52
       vertices: []
       indices: 
       edges: []
@@ -160,7 +135,7 @@ TextureImporter:
         x: 44
         y: 1138
         width: 174
-        height: 394
+        height: 388
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,11 +143,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: 786d5d97889cc6e4199b54d6486aa45f
-=======
-      spriteID: b7755fc865c35d14b87b0ac2708797a1
->>>>>>> 718d0b92be54aecdece1b3ac27059b7188dfe32c
+      spriteID: 4b159219ca4ac5a42ad01839b5fe5b0d
       vertices: []
       indices: 
       edges: []
@@ -192,11 +163,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: c2c0246aa8d338242925fbb0edfe8edf
-=======
-      spriteID: e20db777e8d3d48408ab42cd21c3ae9c
->>>>>>> 718d0b92be54aecdece1b3ac27059b7188dfe32c
+      spriteID: e2cae2d66aa4474449bd92b14036e422
       vertices: []
       indices: 
       edges: []
@@ -216,11 +183,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: 0db9fa50cf0c41a499c1fae816191e50
-=======
-      spriteID: bf47a0af4ba16e44a87b5c755d465894
->>>>>>> 718d0b92be54aecdece1b3ac27059b7188dfe32c
+      spriteID: 58d8127188c3ee44386687812b71d054
       vertices: []
       indices: 
       edges: []
@@ -240,11 +203,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: d4b171ace50febd4ca4b9d757627d38d
-=======
-      spriteID: f5d1b5779032ddf429d9159a053f388c
->>>>>>> 718d0b92be54aecdece1b3ac27059b7188dfe32c
+      spriteID: e6056c74348403e488737b79efb23be3
       vertices: []
       indices: 
       edges: []
@@ -264,11 +223,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: 657079f6d4de9be42af82ae3c849dcf4
-=======
-      spriteID: bebdd30feba48b24b94837e87a0d9048
->>>>>>> 718d0b92be54aecdece1b3ac27059b7188dfe32c
+      spriteID: b70d8e3f17a1b3a4cbfb907fc2678652
       vertices: []
       indices: 
       edges: []
@@ -276,21 +231,12 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-<<<<<<< HEAD
-    spriteID: 2c03ae0088f16b84f973f0910ad8773e
-=======
-    spriteID: 9d6fa149a5725f84193bc0e5337a76e0
->>>>>>> 718d0b92be54aecdece1b3ac27059b7188dfe32c
+    spriteID: e2389974176c6cb45bf3326e85b3dabe
     vertices: []
     indices: 
     edges: []
     weights: []
   spritePackingTag: 
-<<<<<<< HEAD
-=======
-  pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
->>>>>>> 718d0b92be54aecdece1b3ac27059b7188dfe32c
   userData: 
   assetBundleName: 
   assetBundleVariant: 
