@@ -1,15 +1,28 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: a76bb4ae7778eb146be69d8476504bd4
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: mouse
+    21300002: pigeonWing
+    21300004: pigeon
+=======
 guid: e0557b0facf37f54ba65d4b60baa8c2b
 TextureImporter:
   fileIDToRecycleName:
     21300000: pigeon
     21300002: mouse
     21300004: pigeonWing
+>>>>>>> 718d0b92be54aecdece1b3ac27059b7188dfe32c
     21300006: mouseLeg01
     21300008: mouseLeg02
     21300010: mouseTail
   externalObjects: {}
+<<<<<<< HEAD
+  serializedVersion: 5
+=======
   serializedVersion: 7
+>>>>>>> 718d0b92be54aecdece1b3ac27059b7188dfe32c
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -27,8 +40,11 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+<<<<<<< HEAD
+=======
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+>>>>>>> 718d0b92be54aecdece1b3ac27059b7188dfe32c
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -39,7 +55,11 @@ TextureImporter:
     serializedVersion: 2
     filterMode: -1
     aniso: -1
+<<<<<<< HEAD
+    mipBias: -1
+=======
     mipBias: -100
+>>>>>>> 718d0b92be54aecdece1b3ac27059b7188dfe32c
     wrapU: 1
     wrapV: 1
     wrapW: -1
@@ -90,26 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pigeon
-      rect:
-        serializedVersion: 2
-        x: 71
-        y: 36
-        width: 966
-        height: 1112
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1265ac96242d5d64fbedf2045cbb57fb
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
+<<<<<<< HEAD
       name: mouse
       rect:
         serializedVersion: 2
@@ -117,6 +118,15 @@ TextureImporter:
         y: 1424
         width: 985
         height: 460
+=======
+      name: pigeon
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 36
+        width: 966
+        height: 1112
+>>>>>>> 718d0b92be54aecdece1b3ac27059b7188dfe32c
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,12 +134,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8404c45881d3c674b992ec6cd0992a2e
+<<<<<<< HEAD
+      spriteID: fb48a89e944d72c48828d919cfd31244
+=======
+      spriteID: 1265ac96242d5d64fbedf2045cbb57fb
+>>>>>>> 718d0b92be54aecdece1b3ac27059b7188dfe32c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<< HEAD
       name: pigeonWing
       rect:
         serializedVersion: 2
@@ -137,6 +152,15 @@ TextureImporter:
         y: 988
         width: 798
         height: 1001
+=======
+      name: mouse
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1424
+        width: 985
+        height: 460
+>>>>>>> 718d0b92be54aecdece1b3ac27059b7188dfe32c
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,7 +168,45 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
+      spriteID: cf3c80a191cc4c346aeab7a090ad0d94
+=======
+      spriteID: 8404c45881d3c674b992ec6cd0992a2e
+>>>>>>> 718d0b92be54aecdece1b3ac27059b7188dfe32c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD
+      name: pigeon
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 36
+        width: 966
+        height: 1112
+=======
+      name: pigeonWing
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 988
+        width: 798
+        height: 1001
+>>>>>>> 718d0b92be54aecdece1b3ac27059b7188dfe32c
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<< HEAD
+      spriteID: a2ba533c66862d9489445df30b7375dd
+=======
       spriteID: d4c20eceaef64ac418486cf039056ff7
+>>>>>>> 718d0b92be54aecdece1b3ac27059b7188dfe32c
       vertices: []
       indices: 
       edges: []
@@ -153,10 +215,17 @@ TextureImporter:
       name: mouseLeg01
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
+        x: 1210
+        y: 533
+        width: 282
+        height: 264
+=======
         x: 1677
         y: 533
         width: 237
         height: 208
+>>>>>>> 718d0b92be54aecdece1b3ac27059b7188dfe32c
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,7 +233,11 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
+      spriteID: e9f0f936d34e29e4b95ce5b73869b30b
+=======
       spriteID: c599ed25086067143ba6480ff56350b1
+>>>>>>> 718d0b92be54aecdece1b3ac27059b7188dfe32c
       vertices: []
       indices: 
       edges: []
@@ -173,10 +246,17 @@ TextureImporter:
       name: mouseLeg02
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
+        x: 1672
+        y: 533
+        width: 242
+        height: 208
+=======
         x: 1210
         y: 533
         width: 282
         height: 264
+>>>>>>> 718d0b92be54aecdece1b3ac27059b7188dfe32c
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,7 +264,11 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
+      spriteID: be92a8686ba9fb34aacd255d8aef48ec
+=======
       spriteID: b6ae44ed25455cb48ac6003ac1babc9c
+>>>>>>> 718d0b92be54aecdece1b3ac27059b7188dfe32c
       vertices: []
       indices: 
       edges: []
@@ -204,7 +288,11 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
+      spriteID: d2e9079340b22044698cb4b1cca2989a
+=======
       spriteID: ecea5adb9cd1acb469799f7fd3a2e910
+>>>>>>> 718d0b92be54aecdece1b3ac27059b7188dfe32c
       vertices: []
       indices: 
       edges: []
@@ -212,14 +300,21 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
+<<<<<<< HEAD
+    spriteID: f642934bf2c6d77449408766a6692a81
+=======
     spriteID: d2e195473b77bb74fa1d13055cd82540
+>>>>>>> 718d0b92be54aecdece1b3ac27059b7188dfe32c
     vertices: []
     indices: 
     edges: []
     weights: []
   spritePackingTag: 
+<<<<<<< HEAD
+=======
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
+>>>>>>> 718d0b92be54aecdece1b3ac27059b7188dfe32c
   userData: 
   assetBundleName: 
   assetBundleVariant: 
