@@ -2,12 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Cockroach : Insect {
+public class Insect : Animal {
 
 	// Use this for initialization
 	void Start () {
-		print("I am a cockroach");
-		GetComponent<SpriteRenderer>().color = SkinColor;
+		
 	}
 	
 	// Update is called once per frame
