@@ -10,7 +10,10 @@ public class Animal : MonoBehaviour
 	public Color SkinColor;
 
 	public int Legs;
-	
+
+	public FloatData Health;
+
+	public FloatData Speed;
 	// Use this for initialization
 	void Start () {
 		

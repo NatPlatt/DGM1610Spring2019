@@ -9,6 +9,7 @@
         <e p="Animal.cs" t="Include" />
         <e p="BarrelEvent.cs" t="Include" />
         <e p="Cockroach.cs" t="Include" />
+        <e p="FloatData.cs" t="Include" />
         <e p="flourEvent.cs" t="Include" />
         <e p="Insect.cs" t="Include" />
         <e p="Mammal.cs" t="Include" />
