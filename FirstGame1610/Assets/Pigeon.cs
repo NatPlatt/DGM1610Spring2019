@@ -6,17 +6,30 @@ public class Pigeon : Animal
 {
 
 	public Color FeatherColor;
-
 	public int Wings;
+
+	public SpriteRenderer sprite;
+	public Transform groundCheck;
 	
 	
-	// Use this for initialization
 	void Start () {
 		print("I am a pigeon");
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		
+	void Update ()
+	{
+		var rigidBody = GetComponent<Rigidbody2D>();
+		var transform = GetComponent<Transform>();
+
+		if (Input.GetKey("right"))
+		{
+			sprite.flipX = false;
+		}
+
+		if (Input.GetKey("left"))
+		{
+			sprite.flipX = true;
+		}
 	}
 }
