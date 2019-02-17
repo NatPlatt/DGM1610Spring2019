@@ -371,6 +371,7 @@ GameObject:
   m_Component:
   - component: {fileID: 308837674}
   - component: {fileID: 308837675}
+  - component: {fileID: 308837676}
   m_Layer: 0
   m_Name: cockroachFrontLeg02
   m_TagString: Untagged
@@ -440,6 +441,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &308837676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 308837673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a58d25970e624bd499b5cdea8d45a043, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  legColor: {r: 0.1262905, g: 0.6226415, b: 0.12739448, a: 0.8666667}
 --- !u!1 &482986447
 GameObject:
   m_ObjectHideFlags: 0
@@ -450,6 +464,7 @@ GameObject:
   m_Component:
   - component: {fileID: 482986448}
   - component: {fileID: 482986449}
+  - component: {fileID: 482986450}
   m_Layer: 0
   m_Name: cockroachMiddleLeg02
   m_TagString: Untagged
@@ -519,6 +534,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &482986450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 482986447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a58d25970e624bd499b5cdea8d45a043, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  legColor: {r: 0.69881773, g: 0.11035956, b: 0.754717, a: 0.8862745}
 --- !u!1 &534669902
 GameObject:
   m_ObjectHideFlags: 0
@@ -865,6 +893,7 @@ GameObject:
   m_Component:
   - component: {fileID: 713860344}
   - component: {fileID: 713860345}
+  - component: {fileID: 713860346}
   m_Layer: 0
   m_Name: cockroachMiddleLeg01
   m_TagString: Untagged
@@ -934,6 +963,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &713860346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 713860343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a58d25970e624bd499b5cdea8d45a043, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  legColor: {r: 0.2285066, g: 0.34223068, b: 0.745283, a: 0.8745098}
 --- !u!1 &732726440
 GameObject:
   m_ObjectHideFlags: 0
@@ -1230,6 +1272,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1048499987}
   - component: {fileID: 1048499988}
+  - component: {fileID: 1048499989}
   m_Layer: 0
   m_Name: cockroachFrontLeg01
   m_TagString: Untagged
@@ -1299,6 +1342,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1048499989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048499986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a58d25970e624bd499b5cdea8d45a043, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  legColor: {r: 0.8773585, g: 0.789252, b: 0.120016046, a: 0.85490197}
 --- !u!1 &1060491131
 GameObject:
   m_ObjectHideFlags: 0
@@ -1309,6 +1365,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1060491132}
   - component: {fileID: 1060491133}
+  - component: {fileID: 1060491134}
   m_Layer: 0
   m_Name: cockroachBackLeg02
   m_TagString: Untagged
@@ -1378,6 +1435,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1060491134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060491131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a58d25970e624bd499b5cdea8d45a043, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  legColor: {r: 0.9622642, g: 0.60675335, b: 0.20425421, a: 0.91764706}
 --- !u!1 &1372459377
 GameObject:
   m_ObjectHideFlags: 0
@@ -1388,6 +1458,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1372459379}
   - component: {fileID: 1372459378}
+  - component: {fileID: 1372459380}
   m_Layer: 0
   m_Name: cockroachBackLeg01
   m_TagString: Untagged
@@ -1457,6 +1528,19 @@ Transform:
   m_Father: {fileID: 564361651}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 15.722001}
+--- !u!114 &1372459380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1372459377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a58d25970e624bd499b5cdea8d45a043, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  legColor: {r: 0.9056604, g: 0.089711644, b: 0.089711644, a: 0.7921569}
 --- !u!1 &1700960299
 GameObject:
   m_ObjectHideFlags: 0
