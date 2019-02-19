@@ -91,12 +91,12 @@
         <entry file="file://$PROJECT_DIR$/Assets/Wheel.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+              <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
               <folding>
-                <marker date="1550610403839" expanded="false" signature="6:78" ph="..." />
-                <marker date="1550610403839" expanded="true" signature="114:328" ph="{...}" />
-                <marker date="1550610403839" expanded="true" signature="186:207" ph="{...}" />
-                <marker date="1550610403839" expanded="true" signature="265:326" ph="{...}" />
+                <marker date="1550610610730" expanded="false" signature="6:78" ph="..." />
+                <marker date="1550610610730" expanded="true" signature="114:327" ph="{...}" />
+                <marker date="1550610610730" expanded="true" signature="186:207" ph="{...}" />
+                <marker date="1550610610730" expanded="true" signature="265:325" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -134,7 +134,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="1001" />
     <option name="y" value="32" />
     <option name="width" value="879" />
@@ -206,12 +206,12 @@
       <workItem from="1550106448299" duration="1497000" />
       <workItem from="1550369193202" duration="1067000" />
       <workItem from="1550441158979" duration="351000" />
-      <workItem from="1550609660224" duration="743000" />
+      <workItem from="1550609660224" duration="1229000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6490000" />
+    <option name="totallyTimeSpent" value="6976000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -223,8 +223,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1001" y="32" width="879" height="988" extended-state="1" />
-    <editor active="true" />
+    <frame x="1001" y="32" width="879" height="988" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.053724054" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -355,12 +354,12 @@
     <entry file="file://$PROJECT_DIR$/Assets/Wheel.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
           <folding>
-            <marker date="1550610403839" expanded="false" signature="6:78" ph="..." />
-            <marker date="1550610403839" expanded="true" signature="114:328" ph="{...}" />
-            <marker date="1550610403839" expanded="true" signature="186:207" ph="{...}" />
-            <marker date="1550610403839" expanded="true" signature="265:326" ph="{...}" />
+            <marker date="1550610610730" expanded="false" signature="6:78" ph="..." />
+            <marker date="1550610610730" expanded="true" signature="114:327" ph="{...}" />
+            <marker date="1550610610730" expanded="true" signature="186:207" ph="{...}" />
+            <marker date="1550610610730" expanded="true" signature="265:325" ph="{...}" />
           </folding>
         </state>
       </provider>
