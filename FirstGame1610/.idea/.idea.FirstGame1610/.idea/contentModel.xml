@@ -16,6 +16,7 @@
         <e p="Mammal.cs" t="Include" />
         <e p="Mouse.cs" t="Include" />
         <e p="Pigeon.cs" t="Include" />
+        <e p="Wheel.cs" t="Include" />
       </e>
       <e p="FirstGame1610.sln" t="IncludeFlat" />
       <e p="Library" t="ExcludeRecursive" />
