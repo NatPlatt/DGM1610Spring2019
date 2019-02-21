@@ -13,10 +13,10 @@ public class Pigeon : Animal
 	
 	
 	void Start () {
-		print("I am a pigeon");
+		
 	}
 	
-	// Update is called once per frame
+	
 	void Update ()
 	{
 		var rigidBody = GetComponent<Rigidbody2D>();
