@@ -9,17 +9,18 @@ public class LampPost : MonoBehaviour
     private SpriteRenderer sr;
     public GameObject flamePrefab;
    
+//bool with an if statement to call an event
     void Update()
     {
-        if (LampPost)
-        {
-            GameObject go = Instantiate(Resources.Load("flamePrefab"")) as GameObject;
+        //if (LampPost)
+        //{
+        //    GameObject go = Instantiate(Resources.Load("flamePrefab"")) as GameObject;
         }
         
-    }
+    //}
 
-    private void Start()
-    {
-        lampFlame = Sprite.Create();
-    }
+   // private void Start()
+   // {
+  //      lampFlame = Sprite.Create();
+  //  }
 }
