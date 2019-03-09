@@ -14,9 +14,15 @@ public class Pigeon : Animal
 	public LayerMask groundLayer;
 	private float groundCheckRadius;
 	private bool groundCollision;
+	private CharacterController Controller;
+	private Vector3 position;
+	public float Gravity;
+	public float Speed;
 	
-	void Start () {
-		
+	
+	void Start ()
+	{
+		Controller = GetComponent<CharacterController>();
 	}
 
 	private void FixedUpdate()
@@ -27,22 +33,33 @@ public class Pigeon : Animal
 
 	void Update ()
 	{
-		var rigidBody = GetComponent<Rigidbody2D>();
-		var transform = GetComponent<Transform>();
-
-		if (Input.GetKey("right"))
+		var rigidBody = GetComponent<global::UnityEngine.Rigidbody2D>();
+		var transform = GetComponent<global::UnityEngine.Transform>();
+		if (global::UnityEngine.Input.GetAxis("Vertical") > 0 || global::UnityEngine.Input.GetAxis("Vertical") < 0)
 		{
-			sprite.flipX = false;
+			position.y = global::UnityEngine.Input.GetAxis("Vertical") * Speed * global::UnityEngine.Time.deltaTime;
+		}
+		else
+		{
+			position.y = Gravity * global::UnityEngine.Time.deltaTime;
 		}
 
-		if (Input.GetKey("left"))
-		{
-			sprite.flipX = true;
-		}
+		position.x = global::UnityEngine.Input.GetAxis("Horizontal") * Speed * global::UnityEngine.Time.deltaTime;
 
-		if (Input.GetKeyDown("space") && groundCollision)
-		{
-			rigidBody.velocity = new Vector2(rigidBody.velocity.x,10);
-		}
+		Controller.Move(position);
+//		if (Input.GetKey("right"))
+//		{
+//			sprite.flipX = false;
+//		}
+//
+//		if (Input.GetKey("left"))
+//		{
+//			sprite.flipX = true;
+//		}
+//
+//		if (Input.GetKeyDown("space") && groundCollision)
+//		{
+//			rigidBody.velocity = new Vector2(rigidBody.velocity.x,10);
+//		}
 	}
 }
