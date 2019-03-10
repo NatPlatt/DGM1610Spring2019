@@ -17,6 +17,7 @@
           <e p="Insect.cs" t="Include" />
           <e p="Instantiation.cs" t="Include" />
           <e p="LampPost.cs" t="Include" />
+          <e p="lightBulb.cs" t="Include" />
           <e p="Mammal.cs" t="Include" />
           <e p="MonoEvents.cs" t="Include" />
           <e p="Mouse.cs" t="Include" />
