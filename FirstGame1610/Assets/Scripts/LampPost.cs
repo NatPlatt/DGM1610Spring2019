@@ -11,6 +11,7 @@ public class LampPost : MonoBehaviour
     public GameObject flamePrefab;
     public Transform lightBulb;
     public Color bulbColor;
+    public Light myLight;
    
 //bool with an if statement to call an event
     void Update()
@@ -30,12 +31,17 @@ public class LampPost : MonoBehaviour
    {
        int myVar = Convert.ToInt32(AddTwo(9, 2));
        Debug.Log(myVar);
+       print(myVar);
    }
 
    string AddTwo(int var1, int var2)
    {
        string returnValue = (var1 + var2).ToString();
        return returnValue;
-       print(returnValue);
+   }
+
+   void myFunction()
+   {
+       myLight.enabled = !myLight.enabled;
    }
 }
