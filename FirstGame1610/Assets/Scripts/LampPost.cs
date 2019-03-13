@@ -31,7 +31,6 @@ public class LampPost : MonoBehaviour
    {
        int myVar = Convert.ToInt32(AddTwo(9, 2));
        Debug.Log(myVar);
-       print(myVar);
    }
 
    string AddTwo(int var1, int var2)
