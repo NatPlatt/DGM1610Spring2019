@@ -435,7 +435,7 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 0
-  Gravity: -1
+  Gravity: -10
   Speed: 10
 --- !u!65 &956488458
 BoxCollider:

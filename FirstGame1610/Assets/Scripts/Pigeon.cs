@@ -35,6 +35,7 @@ public class Pigeon : Animal
 	{
 		var rigidBody = GetComponent<global::UnityEngine.Rigidbody2D>();
 		var transform = GetComponent<global::UnityEngine.Transform>();
+		float pigeonPos = -0.16f;
 		if (global::UnityEngine.Input.GetAxis("Vertical") > 0 || global::UnityEngine.Input.GetAxis("Vertical") < 0)
 		{
 			position.y = global::UnityEngine.Input.GetAxis("Vertical") * Speed * global::UnityEngine.Time.deltaTime;
@@ -47,6 +48,12 @@ public class Pigeon : Animal
 		position.x = global::UnityEngine.Input.GetAxis("Horizontal") * Speed * global::UnityEngine.Time.deltaTime;
 
 		Controller.Move(position);
+		if (transform.position.y <= pigeonPos)
+		{
+			Debug.Log("I'm on the ground.");
+		}
+
+
 //		if (Input.GetKey("right"))
 //		{
 //			sprite.flipX = false;
