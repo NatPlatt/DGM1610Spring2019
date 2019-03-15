@@ -18,10 +18,13 @@
           <e p="Instantiation.cs" t="Include" />
           <e p="LampPost.cs" t="Include" />
           <e p="lightBulb.cs" t="Include" />
+          <e p="mainChar.cs" t="Include" />
           <e p="Mammal.cs" t="Include" />
           <e p="MonoEvents.cs" t="Include" />
           <e p="Mouse.cs" t="Include" />
+          <e p="movement.cs" t="Include" />
           <e p="Pigeon.cs" t="Include" />
+          <e p="PigeonMove.cs" t="Include" />
           <e p="PowerUp.cs" t="Include" />
           <e p="PowerUpBase.cs" t="Include" />
           <e p="ReturnFunctions.cs" t="Include" />

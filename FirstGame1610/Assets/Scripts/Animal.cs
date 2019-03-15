@@ -17,7 +17,7 @@ public class Animal : MonoBehaviour
 	public FloatData Speed;
 	public int A, B, C;
 	public Vector3 position;
-	public CharacterController Controller;
+	//public CharacterController Controller;
 
 	private int Add()
 	{
@@ -29,13 +29,13 @@ public class Animal : MonoBehaviour
 		return A - B;
 	}
 
-	public Vector3 Move()
-	{
-		position.y = Input.GetAxis("Horizontal");
-		Controller.Move(position);
-		return position;
-	}
-	// Use this for initialization
+//	public Vector3 Move()
+//	{
+//		position.y = Input.GetAxis("Horizontal");
+//		Controller.Move(position);
+//		return position;
+//	}
+	
 	void Start ()
 	{
 		C = Add();
@@ -44,7 +44,7 @@ public class Animal : MonoBehaviour
 		print(C);
 	}
 	
-	// Update is called once per frame
+	
 	void Update () {
 		
 	}

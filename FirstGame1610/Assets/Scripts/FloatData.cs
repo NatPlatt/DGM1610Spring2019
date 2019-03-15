@@ -12,4 +12,14 @@ public class FloatData : ScriptableObject
         get { return value; }
         set { this.value = value; }
     }
+
+    public void UpdateValue(float floatInput)
+    {
+        Value += floatInput;
+    }
+
+    public void UpdateValue(FloatData dataObj)
+    {
+        Value += dataObj.Value;
+    }
 }
