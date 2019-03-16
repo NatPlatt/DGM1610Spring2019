@@ -37,5 +37,9 @@ public class Movement : MonoBehaviour
         		position.x = global::UnityEngine.Input.GetAxis("Horizontal") * Speed * global::UnityEngine.Time.deltaTime;
         
         		Controller.Move(position);
+                if (transform.position.y <= 0.1f)
+                {
+	                Debug.Log("I'm on the ground.");
+                }
     }
 }
