@@ -16,7 +16,6 @@ public class LampPost : MonoBehaviour
 //bool with an if statement to call an event
     void Update()
     {
-       
         
     }
 
@@ -25,6 +24,7 @@ public class LampPost : MonoBehaviour
        Instantiate(lightBulb, new Vector3(12, 12, 10), Quaternion.identity);
        GetComponent<SpriteRenderer>().color = bulbColor;
        //ask how to change color of instantiated object. added color to prefab, but didn't apply to instantiated bulb
+       
    }
 
    void Awake()
