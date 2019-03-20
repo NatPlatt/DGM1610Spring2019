@@ -850,6 +850,7 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 0
+  groundCheckRadius: {x: 0, y: 0, z: 0}
   Controller: {fileID: 2084757344}
   Gravity: -5
   Speed: 5

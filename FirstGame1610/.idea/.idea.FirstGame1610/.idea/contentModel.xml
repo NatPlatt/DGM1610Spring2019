@@ -10,6 +10,7 @@
           <e p="Animal.cs" t="Include" />
           <e p="BarrelEvent.cs" t="Include" />
           <e p="Broom.cs" t="Include" />
+          <e p="CameraLookAt.cs" t="Include" />
           <e p="Cockroach.cs" t="Include" />
           <e p="CockroachLeg.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
@@ -17,6 +18,7 @@
           <e p="Insect.cs" t="Include" />
           <e p="Instantiation.cs" t="Include" />
           <e p="LampPost.cs" t="Include" />
+          <e p="Lessons.cs" t="Include" />
           <e p="lightBulb.cs" t="Include" />
           <e p="mainChar.cs" t="Include" />
           <e p="Mammal.cs" t="Include" />
