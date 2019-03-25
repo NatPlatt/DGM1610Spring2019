@@ -39,9 +39,16 @@ public class Movement : MonoBehaviour
 	    var rigidBody = GetComponent<global::UnityEngine.Rigidbody>();
 	    var transform = GetComponent<global::UnityEngine.Transform>();
 	    
-        if (global::UnityEngine.Input.GetAxis("Vertical") > 0 || global::UnityEngine.Input.GetAxis("Vertical") < 0)
+      // if (Input.GetKeyDown("space"))
+      // {
+	  //     Vector3 up = transform.TransformDirection(Vector3.up);
+	 //      rigidBody.AddForce(up * 5, ForceMode.Impulse);
+      // } > 0 || global::UnityEngine.Input.GetAxis("Vertical") < 0
+	    
+	    if (global::UnityEngine.Input.GetKeyDown("space"))
         		{
-        			position.y = global::UnityEngine.Input.GetAxis("Vertical") * Speed * global::UnityEngine.Time.deltaTime;
+			        Vector3 up = transform.TransformDirection(Vector3.up)
+        			position.y = rigidBody.AddForce(up * 5, ForceMode.Impulse);
         		}
         		else
         		{
