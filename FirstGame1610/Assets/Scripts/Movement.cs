@@ -15,13 +15,14 @@ public class Movement : MonoBehaviour
     public float Gravity;
     public float Speed;
     public float Health;
-    
-   
+    public Sprite mySprite;
+    public float oldPos;
      
     public void Start()
     {
         Controller = GetComponent<CharacterController>();
-        
+        oldPos = transform.position.x;
+
     }
 
 
@@ -45,19 +46,39 @@ public class Movement : MonoBehaviour
 	 //      rigidBody.AddForce(up * 5, ForceMode.Impulse);
       // } > 0 || global::UnityEngine.Input.GetAxis("Vertical") < 0
 	    
-	    if (global::UnityEngine.Input.GetKeyDown("space"))
+	    if (global::UnityEngine.Input.GetKeyDown(KeyCode.Space))
         		{
-			        Vector3 up = transform.TransformDirection(Vector3.up)
-        			position.y = rigidBody.AddForce(up * 5, ForceMode.Impulse);
+			        transform.Translate(Vector3.forward * Speed * Time.deltaTime);
+	                //Vector3 up = transform.TransformDirection(Vector3.up)
+        			//position.y = rigidBody.AddForce(up * 5, ForceMode.Impulse);
         		}
         		else
         		{
         			position.y = Gravity * global::UnityEngine.Time.deltaTime;
         		}
+//
+//	    if (Input.GetAxis("Horizontal") > 0)
+//	    {
+//		    position.x = global::UnityEngine.Input.GetAxis("Horizontal") * Speed * global::UnityEngine.Time.deltaTime;
+//		    this.GetComponent<SpriteRenderer>().sprite = mySprite;
+//	    }
+	    position.x = Input.GetAxis("Horizontal") * Speed * Time.deltaTime;
+	    
+	    if (oldPos < transform.position.x)
+	    {
+		    print("moving right");
+	    }
+
+	    if (oldPos > transform.position.x)
+	    {
+		    print("moving left");
+	    }
+
+	    oldPos = transform.position.x;
         
-        		position.x = global::UnityEngine.Input.GetAxis("Horizontal") * Speed * global::UnityEngine.Time.deltaTime;
+		
         
-        		Controller.Move(position);
+        Controller.Move(position);
                 
                 if (groundCollision)
                 {
