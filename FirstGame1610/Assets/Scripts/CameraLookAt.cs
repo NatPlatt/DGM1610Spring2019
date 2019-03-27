@@ -4,16 +4,22 @@ using UnityEngine;
 
 public class CameraLookAt : MonoBehaviour
 {
-    public Transform target;
-    // Start is called before the first frame update
+    public GameObject player;
+
+    private Vector3 offset;
+    
     void Start()
+    {
+        offset = transform.position - player.transform.position;
+    }
+
+    void Update()
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
+    private void LateUpdate()
     {
-        transform.LookAt(target);
+        transform.position = player.transform.position + offset;
     }
 }
