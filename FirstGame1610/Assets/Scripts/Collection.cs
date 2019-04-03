@@ -4,48 +4,48 @@ using UnityEngine;
 [CreateAssetMenu]
 public class Collection : ScriptableObject
 {
-    public List<Object> ColllectionList01;
+//    public List<Object> ColllectionList;
     
-//    public List<FloatData> CollectionList02;
+    public List<FloatData> CollectionList;
     
-//    public void Collect(FloatData obj)
-//    {
-//        CollectionList02.Add(obj);
-//    }
-
-    public void Collect(Object obj)
+    public void Collect(FloatData obj)
     {
-        ColllectionList01.Add(obj);
+        CollectionList.Add(obj);
     }
+
+//    public void Collect(Object obj)
+//    {
+//        ColllectionList.Add(obj);
+//    }
     
-//    public void CollectionInfo()//in class
-//    {
-//        foreach (var obj in CollectionList02)
-//        {
-//            Debug.Log(obj);
-//        }
-//    }
-//
-//    public void AmmoInfo()//in class
-//    {
-//        foreach (var obj in CollectionList02)
-//        {
-//            if (obj.name == "Ammo")
-//            {
-//                Debug.Log("We have " + obj.Value + " ammo.");
-//            }
-//        }
-//        
-//    }
-//
-//    public void FeulInfo()
-//    {
-//        for (int i = 0; i < CollectionList02.Count; i++)
-//        {
-//            if (CollectionList02[i].name == "Feul")
-//            {
-//                Debug.Log(CollectionList02[i]);
-//            }
-//        }
-//    }
+    public void CollectionInfo()
+    {
+        foreach (var obj in CollectionList)
+        {
+            Debug.Log(obj);
+        }
+    }
+
+    public void AmmoInfo()
+    {
+        foreach (var obj in CollectionList)
+        {
+            if (obj.name == "Ammo")
+            {
+                Debug.Log("We have " + obj.Value + " ammo.");
+            }
+        }
+        
+    }
+
+    public void FeulInfo()
+    {
+        for (int i = 0; i < CollectionList.Count; i++)
+        {
+            if (CollectionList[i].name == "Feul")
+            {
+                Debug.Log(CollectionList[i]);
+            }
+        }
+    }
 }
