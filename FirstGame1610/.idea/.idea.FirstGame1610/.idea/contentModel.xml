@@ -16,6 +16,7 @@
           <e p="Collection.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="flourEvent.cs" t="Include" />
+          <e p="Forces.cs" t="Include" />
           <e p="FunctionsWParam.cs" t="Include" />
           <e p="Insect.cs" t="Include" />
           <e p="Instantiation.cs" t="Include" />

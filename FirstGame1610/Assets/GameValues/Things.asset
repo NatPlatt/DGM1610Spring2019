@@ -9,7 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7ce65a761e820c47b0434a3fb4468f5, type: 3}
-  m_Name: Health
+  m_Script: {fileID: 11500000, guid: 80e4f177fcfd72b47a6fdb33df0d7cc7, type: 3}
+  m_Name: Things
   m_EditorClassIdentifier: 
-  value: 0.39999992
+  ColllectionList01:
+  - {fileID: 0}
+  - {fileID: 0}

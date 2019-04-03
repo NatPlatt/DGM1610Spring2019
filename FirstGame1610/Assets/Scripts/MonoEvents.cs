@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Events;
 public class MonoEvents : MonoBehaviour
 {
-    public UnityEvent StartEvent, EnableEvent, MouseDownEvent, UpdateEvent, TriggerEvent;
+    public UnityEvent StartEvent, EnableEvent, MouseDownEvent, UpdateEvent, TriggerEvent, CollisionEnterEvent;
 
     void Start()
     {
@@ -28,6 +28,11 @@ public class MonoEvents : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         TriggerEvent.Invoke();
+    }
+
+    private void OnCollisionEnter(Collision other)
+    {
+        CollisionEnterEvent.Invoke();
     }
 }
 
