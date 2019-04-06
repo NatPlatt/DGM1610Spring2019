@@ -33,6 +33,7 @@
           <e p="PowerUp.cs" t="Include" />
           <e p="PowerUpBase.cs" t="Include" />
           <e p="ReturnFunctions.cs" t="Include" />
+          <e p="Shooting.cs" t="Include" />
           <e p="StateMachine.cs" t="Include" />
           <e p="updateBar.cs" t="Include" />
           <e p="WeaponSwitches.cs" t="Include" />
