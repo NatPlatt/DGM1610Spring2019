@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class Shooting : MonoBehaviour
 {
-    public Rigidbody tempDamageAmmoPrefab;
+    public Rigidbody bulletPrefab;
 
     public Transform firePosition;
 
     public float bulletSpeed;
 
-    //private Inventory inventory;
+    private Inventory inventory;
 
     private void Awake()
     {
-        
+        inventory = GetComponent<Inventory>();
     }
 
     void Start()
@@ -23,8 +23,18 @@ public class Shooting : MonoBehaviour
     }
 
     
-//    void Update()
-//    {
-//        Shoot();
-//    }
+    void Update()
+    {
+        Shoot();
+    }
+
+    void Shoot()
+    {
+        if (Input.GetButtonDown("Fire1") && inventory.myStuff.bullets > 0)
+        {
+            Rigidbody bulletInstance = Instantiate(bulletPrefab, firePosition.position, firePosition.rotation) as Rigidbody;
+            bulletInstance.AddForce(firePosition.forward * bulletSpeed);
+            inventory.myStuff.bullets--;
+        }
+    }
 }
