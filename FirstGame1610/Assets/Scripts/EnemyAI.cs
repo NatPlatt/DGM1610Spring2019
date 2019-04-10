@@ -13,12 +13,15 @@ public class EnemyAI : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+//    void Update()
+//    {
+//        agent.destination = Player.position;
+//    }
+    //OR
+    void OnTriggerEnter(Collider other)
     {
         agent.destination = Player.position;
     }
-    //OR
-    //void OnTriggerEnter(Collider other)
     //OR
     //void OnTriggerStay(Collider other)
 }
