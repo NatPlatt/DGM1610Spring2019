@@ -24,6 +24,7 @@
           <e p="Insect.cs" t="Include" />
           <e p="Instantiation.cs" t="Include" />
           <e p="Inventory.cs" t="Include" />
+          <e p="InvokeScript.cs" t="Include" />
           <e p="LampPost.cs" t="Include" />
           <e p="Lessons.cs" t="Include" />
           <e p="lightBulb.cs" t="Include" />
