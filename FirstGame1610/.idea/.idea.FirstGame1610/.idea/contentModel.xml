@@ -15,6 +15,7 @@
           <e p="CockroachLeg.cs" t="Include" />
           <e p="Collection.cs" t="Include" />
           <e p="Conversation.cs" t="Include" />
+          <e p="CoroutinePractice.cs" t="Include" />
           <e p="Counter.cs" t="Include" />
           <e p="EnemyAI.cs" t="Include" />
           <e p="FlipChar.cs" t="Include" />

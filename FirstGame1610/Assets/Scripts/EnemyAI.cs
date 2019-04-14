@@ -24,4 +24,6 @@ public class EnemyAI : MonoBehaviour
     }
     //OR
     //void OnTriggerStay(Collider other)
+    
+    
 }
