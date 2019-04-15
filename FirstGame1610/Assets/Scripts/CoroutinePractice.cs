@@ -23,4 +23,4 @@ public class CoroutinePractice : MonoBehaviour
         yield return new WaitForSeconds(3f);
         print("MyCoroutine is now finished.");
     }
-} //ADD other scripts for this later
+} //just need to add click set position script
