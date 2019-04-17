@@ -41,6 +41,7 @@
           <e p="PowerUpBase.cs" t="Include" />
           <e p="PropertiesAndCoroutines.cs" t="Include" />
           <e p="ReturnFunctions.cs" t="Include" />
+          <e p="RunAnims.cs" t="Include" />
           <e p="Shooting.cs" t="Include" />
           <e p="StateMachine.cs" t="Include" />
           <e p="updateBar.cs" t="Include" />

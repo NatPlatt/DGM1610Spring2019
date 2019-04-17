@@ -12,16 +12,16 @@ public class EnemyAI : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
     }
 
-    // Update is called once per frame
-//    void Update()
-//    {
-//        agent.destination = Player.position;
-//    }
-    //OR
-    void OnTriggerEnter(Collider other)
+  
+    void Update()
     {
         agent.destination = Player.position;
     }
+    //OR
+//    void OnTriggerEnter(Collider other)
+//    {
+//        agent.destination = Player.position;
+//    }
     //OR
     //void OnTriggerStay(Collider other)
     
