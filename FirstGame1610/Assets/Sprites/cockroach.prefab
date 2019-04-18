@@ -409,7 +409,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: 
-  SkinColor: {r: 0.6509434, g: 0.24256852, b: 0.24256852, a: 0.9647059}
   Legs: 0
   Health: {fileID: 0}
   Speed: {fileID: 0}
@@ -417,7 +416,9 @@ MonoBehaviour:
   B: 0
   C: 0
   position: {x: 0, y: 0, z: 0}
-  roachLegs: {fileID: 0}
+  SkinColor: {r: 0.6509434, g: 0.24256852, b: 0.24256852, a: 0.9647059}
+  DangerColor: {r: 0, g: 0, b: 0, a: 0}
+  Danger: 0
 --- !u!1 &7978234462822050808
 GameObject:
   m_ObjectHideFlags: 0
@@ -589,6 +590,7 @@ GameObject:
   - component: {fileID: 7978234463791665730}
   - component: {fileID: 7978234463791665729}
   - component: {fileID: 7978234463791665728}
+  - component: {fileID: 1468380035}
   m_Layer: 0
   m_Name: cockroach
   m_TagString: Untagged
@@ -605,7 +607,7 @@ Transform:
   m_GameObject: {fileID: 7978234463791665733}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -13.38, y: 3.4100003, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.41172, y: 0.41172, z: 0.41172}
   m_Children:
   - {fileID: 7978234462774630981}
   - {fileID: 7978234462238825847}
@@ -630,7 +632,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: 
-  SkinColor: {r: 0, g: 0, b: 0, a: 0}
   Legs: 6
   Health: {fileID: 0}
   Speed: {fileID: 0}
@@ -638,7 +639,9 @@ MonoBehaviour:
   B: 0
   C: 0
   position: {x: 0, y: 0, z: 0}
-  roachLegs: {fileID: 0}
+  SkinColor: {r: 0, g: 0.10972311, b: 0.77254903, a: 1}
+  DangerColor: {r: 1, g: 0, b: 0, a: 0}
+  Danger: 0
 --- !u!212 &7978234463791665730
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -675,7 +678,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -759,3 +762,16 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!65 &1468380035
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7978234463791665733}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}

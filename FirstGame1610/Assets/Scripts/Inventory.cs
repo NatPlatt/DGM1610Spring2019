@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Inventory : MonoBehaviour
 {
+    
     public class Stuff
     {
         public int bullets;
@@ -19,11 +20,12 @@ public class Inventory : MonoBehaviour
         }
     }
     //creating an instance (an object) of the Stuff class
-    public Stuff myStuff = new Stuff(50);
+    public Stuff myStuff = new Stuff(30);
     
 
     private void Start()
     {
         Debug.Log(myStuff.bullets);
     }
+
 }

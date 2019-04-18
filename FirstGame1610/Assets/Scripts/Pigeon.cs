@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Pigeon : Animal
 
-{//jfiopHFIWPifs
+{
 
 	public Color FeatherColor;
 	public int Wings;

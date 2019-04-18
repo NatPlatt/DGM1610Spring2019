@@ -8,7 +8,7 @@ public class Animal : MonoBehaviour
 	protected Color newColor;
 	public string Name;
 
-	public Color SkinColor;
+	//public Color SkinColor;
 
 	public int Legs;
 

@@ -35,6 +35,7 @@
           <e p="MonoEvents.cs" t="Include" />
           <e p="Mouse.cs" t="Include" />
           <e p="movement.cs" t="Include" />
+          <e p="MoveSwitch.cs" t="Include" />
           <e p="Pigeon.cs" t="Include" />
           <e p="PigeonMove.cs" t="Include" />
           <e p="PowerUp.cs" t="Include" />
