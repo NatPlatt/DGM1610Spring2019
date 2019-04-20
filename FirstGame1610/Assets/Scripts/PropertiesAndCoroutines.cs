@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Properties : MonoBehaviour
+public class PropertiesAndCoroutines : MonoBehaviour
 {
     public float smoothing = 7f;
 

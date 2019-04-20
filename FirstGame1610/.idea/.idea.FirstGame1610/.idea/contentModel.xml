@@ -11,6 +11,7 @@
           <e p="BarrelEvent.cs" t="Include" />
           <e p="Broom.cs" t="Include" />
           <e p="CameraLookAt.cs" t="Include" />
+          <e p="clickSetPos.cs" t="Include" />
           <e p="Cockroach.cs" t="Include" />
           <e p="CockroachLeg.cs" t="Include" />
           <e p="Collection.cs" t="Include" />
