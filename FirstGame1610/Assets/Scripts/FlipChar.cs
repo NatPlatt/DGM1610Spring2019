@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class FlipChar : MonoBehaviour
 {
+    public Transform player;
     private void OnTriggerEnter(Collider other)
     {
-        transform.Rotate(0, 180, 0);
+        player.Rotate(0, 180, 0);
+        print("I am colliding");
     }
 }
