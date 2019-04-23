@@ -1820,7 +1820,6 @@ GameObject:
   - component: {fileID: 1307639230}
   - component: {fileID: 1307639229}
   - component: {fileID: 1307639228}
-  - component: {fileID: 1307639231}
   m_Layer: 0
   m_Name: flip
   m_TagString: Untagged
@@ -1836,7 +1835,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1307639226}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 3.87, y: 0, z: 0}
   m_LocalScale: {x: 7.949501, y: 2.6963, z: 2.6963}
   m_Children: []
   m_Father: {fileID: 1455328575}
@@ -1870,20 +1869,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1049deadd6688e740b9fd2beea921ad3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!65 &1307639230
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1307639226}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &1307639231
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2685,6 +2672,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1088411163}
+    - target: {fileID: 55636740, guid: 99ff38577f5721d4288a12a22e5ecaf6, type: 3}
+      propertyPath: m_Text
+      value: Shoot the Ball
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99ff38577f5721d4288a12a22e5ecaf6, type: 3}
 --- !u!1001 &2072530795
