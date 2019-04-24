@@ -16,6 +16,7 @@ public class EnemyAI : MonoBehaviour
     void Update()
     {
         agent.destination = Player.position;
+        
     }
     
 }

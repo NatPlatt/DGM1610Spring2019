@@ -20,7 +20,7 @@ public class MainChar : MonoBehaviour
     private
     void Start()
     {
-        
+        SendMessageUpwards("Hello there!");
     }
 
     
