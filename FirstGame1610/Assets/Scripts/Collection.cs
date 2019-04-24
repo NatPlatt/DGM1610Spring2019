@@ -4,7 +4,6 @@ using UnityEngine;
 [CreateAssetMenu]
 public class Collection : ScriptableObject
 {
-//    public List<Object> ColllectionList;
     
     public List<FloatData> CollectionList;
     
@@ -12,11 +11,6 @@ public class Collection : ScriptableObject
     {
         CollectionList.Add(obj);
     }
-
-//    public void Collect(Object obj)
-//    {
-//        ColllectionList.Add(obj);
-//    }
     
     public void CollectionInfo()
     {

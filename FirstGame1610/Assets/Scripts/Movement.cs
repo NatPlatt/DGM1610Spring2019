@@ -74,19 +74,6 @@ public class Movement : MonoBehaviour
                 if (groundCollision)
                 {
 	                doubleJumped = false;
-                }
-                
-
-//                if (Input.GetKeyDown("space") && groundCollision)
-//                {
-//	                rigidBody.velocity = new Vector3(rigidBody.velocity.x, 10);
-//                }
-                
-    }
-
-	
-	
-	
-
-   
+                }           
+    }   
 }

@@ -17,13 +17,5 @@ public class EnemyAI : MonoBehaviour
     {
         agent.destination = Player.position;
     }
-    //OR
-//    void OnTriggerEnter(Collider other)
-//    {
-//        agent.destination = Player.position;
-//    }
-    //OR
-    //void OnTriggerStay(Collider other)
-    
     
 }

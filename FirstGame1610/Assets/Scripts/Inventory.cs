@@ -19,10 +19,9 @@ public class Inventory : MonoBehaviour
             bullets = 1;
         }
     }
-    //creating an instance (an object) of the Stuff class
+  
     public Stuff myStuff = new Stuff(30);
     
-
     private void Start()
     {
         Debug.Log(myStuff.bullets);

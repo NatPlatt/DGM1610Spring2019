@@ -13,8 +13,4 @@ public class flourEvent : MonoBehaviour
 		Event.Invoke();
 	}
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 }
