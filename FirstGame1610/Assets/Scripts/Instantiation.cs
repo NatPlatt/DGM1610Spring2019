@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Instantiation : MonoBehaviour
 {
-    // Start is called before the first frame update
+    
     public Transform brick;
     void Start()
     {

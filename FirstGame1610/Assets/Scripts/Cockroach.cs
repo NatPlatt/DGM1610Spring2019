@@ -11,8 +11,7 @@ public class Cockroach : Insect
 	
 	void Start () {
 		
-		//GetComponent<SpriteRenderer>().color = SkinColor;
-		
+		GetComponent<SpriteRenderer>().color = SkinColor;
 		
 	}
 	
