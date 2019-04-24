@@ -6,14 +6,19 @@ using UnityEngine.UI;
 
 public class Countdown : MonoBehaviour
 {
-    public float timeLeft = 5.0f;
+    public float timeLeft = 1.0f;
+    public int i = 5;
 
     public Text startingText;
   
     
     void Update()
     {
-        timeLeft -= Time.deltaTime;
-        startingText.text = (timeLeft).ToString("0");
+        
+        timeLeft += Time.deltaTime;
+        startingText.text = (timeLeft).ToString("time: 0 secs"); 
+            
+       
+        
     }
 }
