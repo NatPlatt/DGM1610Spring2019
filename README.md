@@ -8,3 +8,7 @@
 <h3>Write a second switch with enums:</h3>in MoveSwitch script.
 <h3>Create an additional if statement with an else clause</h3>in cockroach script, on the cockroach in the TestScene. Script does work (Debug.Log shows correct information, the colors just don't change for some reason).
 
+<h2>Assignment 4:</h2>
+
+<h3>A second Animation Controller and two Animation Clips:</h3> both on Mouse in TestScene. Animation is triggered when mainChar comes close to the mouse.
+
