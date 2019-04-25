@@ -18,12 +18,8 @@ public class MainChar : MonoBehaviour
     public Transform firePosition;
     public float bulletSpeed;
     private
-    void Start()
-    {
-        SendMessageUpwards("Hello there!");
-    }
+   
 
-    
     void Update()
     {
         Shoot();
