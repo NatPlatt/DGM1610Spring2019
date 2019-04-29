@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//learned using Unity tutorials
+
 public class CoroutinePractice : MonoBehaviour
 {
     public float smoothing = 1f;

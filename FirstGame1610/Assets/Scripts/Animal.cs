@@ -5,6 +5,8 @@ using UnityEngine.Experimental.UIElements;
 
 public class Animal : MonoBehaviour
 {
+	public List<string> Animals = new List<string>();
+	
 	protected Color newColor;
 	
 	public string Name;
@@ -35,6 +37,10 @@ public class Animal : MonoBehaviour
 		print(C);
 		C = Subtract();
 		print(C);
+		
+		Animals.Add("Cockroach");
+		Animals.Add("Mouse");
+		Animals.Add("Pigeon");
 	}
 
 }

@@ -16,7 +16,7 @@ public class LampPost : MonoBehaviour
 
    void Start()
    {
-       Instantiate(lightBulb, new Vector3(12, 12, 10), Quaternion.identity);
+       //Instantiate(lightBulb, new Vector3(12, 12, 10), Quaternion.identity);
        GetComponent<SpriteRenderer>().color = bulbColor;
        
    }

@@ -8,7 +8,7 @@ public class flourEvent : MonoBehaviour
 {
 	public UnityEvent Event;
 
-	private void OnCollisionEnter2D()
+	private void OnCollisionEnter()
 	{
 		Event.Invoke();
 	}
